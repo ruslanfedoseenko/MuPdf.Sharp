@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fitz">
+      <UniqueIdentifier>{2a8655d2-8658-4d55-a91f-25e88eac7404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{3a965dab-47f1-4529-8e53-8453afac0733}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fitz\FzContext.h">
+      <Filter>Fitz</Filter>
+    </ClInclude>
+    <ClInclude Include="Fitz\FzDocument.h">
+      <Filter>Fitz</Filter>
+    </ClInclude>
+    <ClInclude Include="Fitz\FzPage.h">
+      <Filter>Fitz</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\ObjectHelper.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="Fitz\FzContext.cpp">
+      <Filter>Fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="Fitz\FzDocument.cpp">
+      <Filter>Fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="Fitz\FzPage.cpp">
+      <Filter>Fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\ObjectHelper.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
