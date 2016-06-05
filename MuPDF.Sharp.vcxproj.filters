@@ -7,34 +7,85 @@
     <Filter Include="Helpers">
       <UniqueIdentifier>{3a965dab-47f1-4529-8e53-8453afac0733}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pdf">
+      <UniqueIdentifier>{a693654d-e715-4865-adba-3cb78f915f80}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Fitz\FzContext.h">
-      <Filter>Fitz</Filter>
-    </ClInclude>
-    <ClInclude Include="Fitz\FzDocument.h">
-      <Filter>Fitz</Filter>
-    </ClInclude>
-    <ClInclude Include="Fitz\FzPage.h">
-      <Filter>Fitz</Filter>
-    </ClInclude>
     <ClInclude Include="Helpers\ObjectHelper.h">
       <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Fitz\Context.h">
+      <Filter>Fitz</Filter>
+    </ClInclude>
+    <ClInclude Include="Fitz\Document.h">
+      <Filter>Fitz</Filter>
+    </ClInclude>
+    <ClInclude Include="Fitz\Page.h">
+      <Filter>Fitz</Filter>
+    </ClInclude>
+    <ClInclude Include="Fitz\Cookie.h">
+      <Filter>Fitz</Filter>
+    </ClInclude>
+    <ClInclude Include="Fitz\Device.h">
+      <Filter>Fitz</Filter>
+    </ClInclude>
+    <ClInclude Include="Fitz\DrawDevice.h">
+      <Filter>Fitz</Filter>
+    </ClInclude>
+    <ClInclude Include="Fitz\Pixmap.h">
+      <Filter>Fitz</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\ArrayHepler.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Fitz\Stream.h">
+      <Filter>Fitz</Filter>
+    </ClInclude>
+    <ClInclude Include="Pdf\PdfDocument.h">
+      <Filter>Pdf</Filter>
+    </ClInclude>
+    <ClInclude Include="Pdf\PdfObjectTypes.h">
+      <Filter>Pdf</Filter>
+    </ClInclude>
+    <ClInclude Include="Pdf\PdfPage.h">
+      <Filter>Pdf</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
-    <ClCompile Include="Fitz\FzContext.cpp">
-      <Filter>Fitz</Filter>
-    </ClCompile>
-    <ClCompile Include="Fitz\FzDocument.cpp">
-      <Filter>Fitz</Filter>
-    </ClCompile>
-    <ClCompile Include="Fitz\FzPage.cpp">
-      <Filter>Fitz</Filter>
-    </ClCompile>
     <ClCompile Include="Helpers\ObjectHelper.cpp">
       <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Fitz\Context.cpp">
+      <Filter>Fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="Fitz\Document.cpp">
+      <Filter>Fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="Fitz\Page.cpp">
+      <Filter>Fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="Fitz\Cookie.cpp">
+      <Filter>Fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="Fitz\DrawDevice.cpp">
+      <Filter>Fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="Fitz\Pixmap.cpp">
+      <Filter>Fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\ArrayHepler.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Fitz\Stream.cpp">
+      <Filter>Fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="Pdf\PdfDocument.cpp">
+      <Filter>Pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="Pdf\PdfPage.cpp">
+      <Filter>Pdf</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

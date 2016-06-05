@@ -10,7 +10,7 @@ namespace MuPdf
 		
 		namespace Fitz
 		{
-			public ref struct Rect
+			public ref struct FzRect
 			{
 			public:
 				int X0;
@@ -19,16 +19,24 @@ namespace MuPdf
 				int Y1;
 			};
 			
-			public ref class FzContext : ICloneable
+			public ref struct Matrix
+			{
+			public :
+				float A, B, C, D, E, F;
+			internal:
+				fz_matrix* toNativeMatrix();
+				static Matrix^ fromNativeMatrix(fz_matrix*);
+			};
+			public ref class Context : ICloneable
 			{
 			internal:
 				fz_context* m_pCtx;
-				FzContext(fz_context* ctx);
+				Context(fz_context* ctx);
 			public:
 				delegate int TuneImageScale(Object^, int, int, int, int);
-				delegate int TuneImageDecode(Object^, int w, int h, int l2factor, Rect^);
-				FzContext(int maxStore);
-				~FzContext();
+				delegate int TuneImageDecode(Object^, int w, int h, int l2factor, FzRect^);
+				Context(int maxStore);
+				~Context();
 				virtual Object^ Clone();
 
 				property Object^ UserValue
